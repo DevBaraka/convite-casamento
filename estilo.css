@@ -19,10 +19,9 @@ header {
     height: 100%;
     z-index: -1;
 }
-.nomes {
-    /* font-family: 'Great Vibes', cursive; */
-    font-size: 50px;
-    height: 250px;
+.inicio {
+    height: 99vh;
+    width: 100vw;
 }
 .nome1 {
     text-align: left;
@@ -210,6 +209,10 @@ h4 {
         width: auto;
         height: auto;
         z-index: -1;
+    }
+    .inicio1 {
+        height: 99vh;
+        width: 100vw;
     }
     .timer {
         font-size: 20px;
