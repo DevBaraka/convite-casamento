@@ -165,7 +165,7 @@ h4 {
 .botaopresente:hover {
     transform: scale(1.05);
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     .fundo {
         width: 100vw;    
     }
