@@ -165,3 +165,67 @@ h4 {
 .botaopresente:hover {
     transform: scale(1.05);
 }
+@media (min-width: 1200px) {
+    .fundo {
+        width: 100vw;    
+    }
+    .fundo-flor {
+        width: auto;
+        height: auto;
+        z-index: -1;
+    }
+    .timer {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 850px;
+    }
+    .menuesq {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .menudir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .icone {
+        width: 180px;
+        height: 180px;
+    }
+    .container-fotos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .album {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .albumfotos {
+        margin: 0;
+    }
+    .fotos {
+        margin: 5px;
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        margin: 0;
+    }
+}
