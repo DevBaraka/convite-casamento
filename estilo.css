@@ -104,6 +104,7 @@ h4 {
 }
 .container-fotos {
     display: flex;
+    flex-direction: column;
 }
 .nos {
     text-align: center;
@@ -165,7 +166,7 @@ h4 {
 .botaopresente:hover {
     transform: scale(1.05);
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .fundo {
         width: 100vw;    
     }
@@ -219,12 +220,12 @@ h4 {
         align-items: center;
     }
     .albumfotos {
-        margin: 0;
+        margin-right: 0;
     }
     .fotos {
         margin: 5px;
-        width: 180px;
-        height: 180px;
+        width: 120px;
+        height: 120px;
         border: 1px solid black;
         margin: 0;
     }
