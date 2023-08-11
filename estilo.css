@@ -20,6 +20,8 @@ header {
     z-index: -1;
 }
 .inicio {
+    display: flex;
+    justify-content: center;
     height: 99vh;
     width: 100vw;
 }
