@@ -17,3 +17,14 @@ function updateCountdown() {
 
 updateCountdown();
 setInterval(updateCountdown, 1000);
+
+document.querySelector(".botaomenu2").addEventListener("click", function() {
+  window.open("https://cartoriosilvagoiania.com.br/", "_blank");
+});
+document.querySelector(".botaomenu2-2").addEventListener("click", function() {
+  window.open("https://www.instagram.com/jpsteakhousegoiania/?hl=pt-br", "_blank");
+});
+document.querySelector(".botaopresente").addEventListener("click", function() {
+  window.open("https://nubank.com.br/pagar/1mxc08/PMOjl2P07y", "_blank");
+});
+
